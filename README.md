@@ -3,8 +3,12 @@ Project for CSI-280 at Champlain College. Volunteering Website Project.
 
 Luke Cutter, Justin Allman, Alex Cattani, Mike Kerwood, and Landis Humphrey
 
+<<<<<<< Updated upstream
 Adding myself to the README-Justin
 
+=======
+Adding Myself to the Read Me, Judtin
+>>>>>>> Stashed changes
 
 Original Description: A website that takes local charities and connects them to users on a seamless website. 
 The website will allow users to pick the dates they want to volunteer and the times and communicates that to the charities. 
