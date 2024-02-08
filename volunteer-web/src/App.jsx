@@ -1,6 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+// imports of pages
+import Home from './pages/Home'
+import About from './pages/About'
+import Opportunities from './pages/Opportunities'
+
+import { Route, Routes } from 'react-router-dom'
 import ResponsiveAppBar from './components/ResponsiveAppBar'
 import './App.css'
 
@@ -11,33 +16,11 @@ function App() {
   return (
     <>
       <ResponsiveAppBar className="navbar"/>
-      <img src= "/temp-volunteer-homepage-banner.jpg" alt="Temporary Banner" />
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/opportunities" element={<Opportunities />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
     </>
   )
 }

@@ -14,8 +14,11 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Home', 'Find Your Opportunities', 'About Us'];
-const pageLinks = ['/Home', '/Opportunities', '/About'];
+const pages = [
+  {id: 1, title: 'Home', pageLink: '/'},
+  {id: 2, title: 'Find Your Opportunities', pageLink: '/opportunities'},
+  {id: 3, title: 'About Us', pageLink: '/about'},
+];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
@@ -38,7 +41,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar
+    <AppBar position="sticky"
         sx={{
             backgroundColor: 'lightseagreen',
             position: 'sticky',
@@ -52,7 +55,7 @@ function ResponsiveAppBar() {
             variant="h6"
             noWrap
             component="a"
-            href="#home"
+            href="/"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -96,9 +99,11 @@ function ResponsiveAppBar() {
               }}
             >
               {pages.map((page) => (
-                    <MenuItem key={page} onClick={handleCloseNavMenu}>
-                        <Typography textAlign="center">{page}</Typography>
+                    <Link to={page.pageLink} >
+                    <MenuItem key={page.title} onClick={handleCloseNavMenu}>
+                        <Typography textAlign="center">{page.title}</Typography>
                     </MenuItem>
+                    </Link>
               ))}
             </Menu>
           </Box>
@@ -107,7 +112,7 @@ function ResponsiveAppBar() {
             variant="h5"
             noWrap
             component="a"
-            href="#home"
+            href="/"
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },
@@ -123,13 +128,15 @@ function ResponsiveAppBar() {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
+              <Link to={page.pageLink}>
               <Button
-                key={page}
+                key={page.title}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+                {page.title}
               </Button>
+              </Link>
             ))}
           </Box>
 
