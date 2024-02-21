@@ -4,9 +4,11 @@ import { useState } from 'react'
 import Home from './pages/Home'
 import About from './pages/About'
 import Opportunities from './pages/Opportunities'
+import Login from './pages/Login.jsx'
+import Signup from './pages/Signup'
 
 import { Route, Routes } from 'react-router-dom'
-import ResponsiveAppBar from './components/ResponsiveAppBar'
+import ResponsiveAppBar from './components/ResponsiveAppBar.jsx'
 import './App.css'
 
 
@@ -20,6 +22,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/opportunities" element={<Opportunities />} />
         <Route path="/about" element={<About />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </>
   )

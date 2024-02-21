@@ -13,6 +13,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import './ResponsiveAppBar.css';
 
 const pages = [
   {id: 1, title: 'Home', pageLink: '/'},
@@ -46,6 +47,7 @@ function ResponsiveAppBar() {
             backgroundColor: 'lightseagreen',
             position: 'sticky',
             top: '0',
+            width: '100%',
         }}
     >
       <Container maxWidth="xl">
@@ -142,9 +144,11 @@ function ResponsiveAppBar() {
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-              </IconButton>
+              <Link to = "/login">
+                <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+                  <Avatar alt="Not logged in" src="/static/images/avatar/2.jpg" />
+                </IconButton>
+              </Link>
             </Tooltip>
             <Menu
               sx={{ mt: '45px' }}
