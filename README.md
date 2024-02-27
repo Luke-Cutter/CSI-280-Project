@@ -10,3 +10,11 @@ Essentially a website that makes it easy to volunteer on your time while filling
 It will use responsive web design and a calendar-view to make the site easy to use. There will be individual pages for charities so the user has choice of opportunity. 
 There will be different filters for the user to specify what kind of volunteer opportunities they would like to participate in.
 I have a whole pitch deck at the ready which fleshes this idea out more: https://docs.google.com/presentation/d/18UCRgql1qualeKRtdtrEo7NewHF9d0E0cJDt_lxfGY8/edit?usp=sharing
+
+How to Set Up:
+1. Make sure you have nodeJS
+2. Run the folowing commands in the terminal
+3. npm install vite@latest
+4. npm install for @mui/icons-material
+@mui/material @emotion/react @emotion/styled
+5. npm install mdb-react-ui-kit
