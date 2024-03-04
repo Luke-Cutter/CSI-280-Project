@@ -1,5 +1,11 @@
+import Calendar from '/src/components/Calendar.jsx';
+
+
 export default function Opportunities() {
     return (
-    <h1>Opportunities</h1>
+    <div>
+        <h1>Opportunities</h1>
+        <Calendar />
+    </div>
     )
 }
