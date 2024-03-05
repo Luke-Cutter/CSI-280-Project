@@ -8,7 +8,9 @@ import Login from './pages/Login.jsx'
 import Signup from './pages/Signup'
 
 import { Route, Routes } from 'react-router-dom'
+import WebsiteHeader from './components/WebsiteHeader.jsx'
 import ResponsiveAppBar from './components/ResponsiveAppBar.jsx'
+import WebsiteFooter from './components/WebsiteFooter.jsx'
 import './App.css'
 
 
@@ -17,6 +19,7 @@ function App() {
 
   return (
     <>
+      <WebsiteHeader />
       <ResponsiveAppBar className="navbar"/>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -25,6 +28,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>
+      <WebsiteFooter />
     </>
   )
 }
