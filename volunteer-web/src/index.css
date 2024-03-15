@@ -4,8 +4,6 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: lightseagreen;
-  background-color: lightseagreen;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,12 +13,10 @@
 
 a {
   font-weight: 500;
-  color: lightseagreen;
+  color: #EDAFB8;
   text-decoration: inherit;
 }
-a:hover {
-  color: lightseagreen;
-}
+
 
 body {
   margin: 0px;
@@ -44,9 +40,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: lightseagreen;
-}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -57,9 +51,7 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
-    color: lightseagreen;
-  }
+
   button {
     background-color: #f9f9f9;
   }
