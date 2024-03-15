@@ -44,7 +44,7 @@ function ResponsiveAppBar() {
   return (
     <AppBar position="sticky"
         sx={{
-            backgroundColor: 'lightseagreen',
+            backgroundColor: '#EDAFB8',
             position: 'sticky',
             top: '0',
             width: '100%',
@@ -134,7 +134,7 @@ function ResponsiveAppBar() {
               <Button
                 key={page.title}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'black', display: 'block' }}
               >
                 {page.title}
               </Button>
