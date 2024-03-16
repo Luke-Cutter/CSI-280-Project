@@ -5,7 +5,8 @@ export default function Home() {
 
     return (
     <div>
-    <img src= "\homepage-banner.png" alt="Temporary Banner" />
+      <img src= "\homepage-banner.png" alt="Temporary Home Banner" />
+      <h1>Welcome to Volunteer Helper</h1>
       <div className="colorDiv1">
         <h3>This Week's Highlighted Charities</h3>
         {/*Featured Charities Components will go here*/}
