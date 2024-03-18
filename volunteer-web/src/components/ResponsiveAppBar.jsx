@@ -16,9 +16,11 @@ import AdbIcon from '@mui/icons-material/Adb';
 import './ResponsiveAppBar.css';
 
 const pages = [
-  {id: 1, title: 'Home', pageLink: '/'},
-  {id: 2, title: 'Find Your Opportunities', pageLink: '/opportunities'},
-  {id: 3, title: 'About Us', pageLink: '/about'},
+  {id: 1, title: 'Find Your Opportunities', pageLink: '/opportunities'},
+  {id: 2, title: 'Events', pageLink: '/events'},
+  {id: 3, title: 'Donate', pageLink: '/donate'},
+  {id: 4, title: 'Gallery', pageLink: '/gallery'},
+  {id: 5, title: 'Our Mission', pageLink: '/about'},
 ];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -134,7 +136,7 @@ function ResponsiveAppBar() {
               <Button
                 key={page.title}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'black', display: 'block' }}
+                sx={{ my: 2, ml: 3, color: 'white', display: 'block' }}
               >
                 {page.title}
               </Button>

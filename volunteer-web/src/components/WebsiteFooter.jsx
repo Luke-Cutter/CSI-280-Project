@@ -12,8 +12,9 @@ const footerPages = [
 export default function WebsiteFooter() {
     return (
         <div>
+            <br></br><br></br>
             {footerPages.map((page) => (
-                <Link to={page.pageLink} >{page.title}   </Link>
+                <Link className="footerHover" to={page.pageLink}> | {page.title} | </Link>
             ))}
         </div>
     )
