@@ -1,4 +1,4 @@
-X# CSI-280-Project
+CSI-280-Project
 
 A Volunteering Website created for the purpose of being an open source project at Champlain College for CSI-280
 
