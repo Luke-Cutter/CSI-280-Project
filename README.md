@@ -4,7 +4,7 @@ A Volunteering Website created for the purpose of being an open source project a
 
 Main Contributors: Justin Allman, Alex Cattani, Luke Cutter, Landis Humphrey, and Mike Kerwood
 
-Volunteer Helpers is an innovative open-source website that revolutionizes the way local charities and volunteers connect. By leveraging cutting-edge responsive web design and a user-friendly interface, Volunteer Helpers streamlines the process of matching volunteers with meaningful opportunities in their community.
+Volunteer Helpers is a (currently Work In Progress) innovative open-source website that revolutionizes the way local charities and volunteers connect. By leveraging cutting-edge responsive web design and a user-friendly interface, Volunteer Helpers streamlines the process of matching volunteers with meaningful opportunities in their community.
 
 The website serves as a centralized platform for both volunteers and organizations. Volunteers can easily create profiles, specifying their interests, skills, and availability. They can browse through a wide range of local charities and select the causes that resonate with them the most. The intuitive calendar view allows volunteers to pick the dates and times that fit their schedules, ensuring a seamless volunteering experience.
 
