@@ -19,7 +19,7 @@ export default function Login() {
           <div className="d-flex flex-column ms-5">
 
             <div className="text-center">
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
+              <img className="logo" src="public\vhlogofinal.svg"
                 style={{width: '185px'}} alt="logo" />
               <h4 className="mt-1 mb-5 pb-1">We are The Volunteer Helpers Team</h4>
             </div>
@@ -52,9 +52,12 @@ export default function Login() {
 
             <div className="text-white px-3 py-4 p-md-5 mx-md-4">
               <h4 class="mb-4">We are more than just a company</h4>
-              <p class="small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <p class="small mb-0">Our mission at Volunteer Helpers is to empower individuals and communities 
+              to create positive change through volunteerism and acts of kindness. We believe in the 
+              transformative power of service to uplift lives, foster empathy, and build stronger, more 
+              compassionate communities. With a commitment to inclusivity and collaboration, we strive to 
+              inspire and mobilize people from all walks of life to join us in making a meaningful 
+              difference in the world.
               </p>
             </div>
 

@@ -3,12 +3,12 @@
     background: #5eebcc;
   
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, #2ad191, #5cbea9, #29d4da, #0ab4df);
+    background: -webkit-linear-gradient(to right, #EDAFB8, #F7E1D7, #B0C4B1, #90A991);
   
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, #2ad191, #5cbea9, #29d4da, #0ab4df);
+    background: linear-gradient(to right, #EDAFB8, #F7E1D7, #B0C4B1, #90A991);
   }
-  
+
   @media (min-width: 768px) {
     .gradient-form {
       height: 100vh !important;

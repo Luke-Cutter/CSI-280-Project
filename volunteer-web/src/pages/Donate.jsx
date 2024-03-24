@@ -3,7 +3,7 @@ export default function Donate() {
     <div>
         <img src= "\donate-banner.png" alt="Temporary Donate Banner" />
         <h1>Donate</h1>
-        <div className="borderDiv1">
+        <div className="borderDiv1 spaceFormattedDiv">
             <h4 align="center">A Message From the Co-Founder</h4>
         Dear Donors,
         &#10;&#10;

@@ -6,19 +6,17 @@
 }
 
 .logo {
-  height: 3em;
+  height: inherit;
   padding: 0.5em;
   margin-left: 0;
   will-change: filter;
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #ed8c9a);
+  filter: drop-shadow(0 0 2em #ffbdca);
 }
 .borderDiv1 {
   border: solid #B0C4B1 0.5em;
-  white-space: pre-wrap;
-  text-align: left;
   padding: 1em;
 }
 
@@ -28,4 +26,9 @@
 
 .colorDiv2 {
   background: #F7E1D7;
+}
+
+.spaceFormattedDiv {
+  white-space: pre-wrap;
+  text-align: left;
 }
