@@ -1,6 +1,8 @@
 export default function About() {
     return (
     <div>
+        <img src= "\about-banner.png" alt="Temporary About Banner" />
+        <h1>Our Mission</h1>
         <div>
             <h4>Meet Our Founders</h4>
             {/*Founder pictures go here*/}
