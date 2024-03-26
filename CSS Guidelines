@@ -1,0 +1,85 @@
+CSS Style Guidelines
+
+Color Palette:
+
+    Primary Color: #EDAFB8
+    Secondary Color: #B0C4B1
+    Tertiary Color: #DEDBD2
+    Accent Color: #4A5759
+
+Typography:
+
+    Body Font: Libre Franklin, 12pt
+    Header Font: Libre Franklin, 16pt, bold
+    Main Page Header: Inter, 50pt, white fill, positioned on top of an image
+
+Buttons and Clickable Elements:
+
+    Background Color: Primary Color (#EDAFB8)
+    Text Color: White
+    Border Radius: 15px
+    Padding: 10px 20px
+    Font: Libre Franklin, 12pt
+    Hover Effect: Background color changes to Secondary Color (#B0C4B1) on hover
+
+App Logo Elements:
+
+    Background Color: Tertiary Color (#DEDBD2)
+    Border Radius: 5px
+    Padding: 5px
+
+Layout:
+
+    Use a responsive grid system with a maximum width of 1200px for the main content area
+    Implement proper spacing and margins between elements for improved readability
+    Utilize whitespace effectively to create a clean and uncluttered design
+
+Forms:
+
+    Label Font: Libre Franklin, 12pt, bold
+    Input Fields:
+        Background Color: White
+        Border: 1px solid Accent Color (#4A5759)
+        Border Radius: 5px
+        Padding: 8px
+        Font: Libre Franklin, 12pt
+    Submit Button:
+        Background Color: Accent Color (#4A5759)
+        Text Color: White
+        Border Radius: 15px
+        Padding: 10px 20px
+        Font: Libre Franklin, 12pt
+        Hover Effect: Background color changes to Secondary Color (#B0C4B1) on hover
+
+Images:
+
+    Use high-quality images that are relevant to the content
+    Optimize images for web to ensure fast loading times
+    Implement responsive images that adapt to different screen sizes
+
+Iconography:
+
+    Use simple and easily recognizable icons
+    Ensure consistent styling throughout the application
+    Use the Accent Color (#4A5759) for icon fill or stroke
+
+Responsive Design:
+
+    Design for mobile-first approach
+    Use media queries to adapt the layout for different screen sizes
+    Ensure that all elements are easily accessible and usable on various devices
+
+Accessibility:
+
+    Provide proper alt text for images
+    Ensure sufficient color contrast between text and background colors
+
+Code Organization:
+
+    Use a consistent naming convention for CSS classes and IDs (e.g., BEM)
+    Organize CSS properties in a logical order (e.g., positioning, display, box model, typography, etc.)
+    Use comments to explain complex or non-obvious code sections
+    Minify CSS files for production to reduce file size and improve loading times
+
+By following these CSS style guidelines, we can ensure a consistent and visually appealing design throughout
+our application while maintaining good coding practices and accessibility standards!
