@@ -7,15 +7,15 @@ export default function Home() {
     const responsive = {
       desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 3,
+        items: 4,
       },
       tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 2,
+        breakpoint: { max: 1024, min: 700 },
+        items: 3,
       },
       mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1,
+        breakpoint: { max: 700, min: 0 },
+        items: 2,
       }
     };
 
@@ -43,12 +43,12 @@ export default function Home() {
           keyBoardControl={true}
           transitionDuration={1500}
         >
-      <img src= "\carousel-image-1.png" />
-      <img src= "\carousel-image-2.png" />
-      <img src= "\carousel-image-3.png" />
-      <img src= "\carousel-image-4.png" />
-      <img src= "\carousel-image-5.png" />
-      <img src= "\carousel-image-6.png" />
+      <img src= "\carousel-image-1.png" width="200 px" height="200 px"/>
+      <img src= "\carousel-image-2.png" width="200 px" height="200 px"/>
+      <img src= "\carousel-image-3.png" width="200 px" height="200 px"/>
+      <img src= "\carousel-image-4.png" width="200 px" height="200 px"/>
+      <img src= "\carousel-image-5.png" width="200 px" height="200 px"/>
+      <img src= "\carousel-image-6.png" width="200 px" height="200 px"/>
         </Carousel>
         <h3>Get Searching!</h3>
         {/*Charity Profiles carousel here*/}
@@ -60,11 +60,11 @@ export default function Home() {
           keyBoardControl={true}
           transitionDuration={1500}
         >
-      <img src= "\profile-image-1.png" />
-      <img src= "\profile-image-2.png" />
-      <img src= "\profile-image-3.png" />
-      <img src= "\profile-image-4.png" />
-      <img src= "\profile-image-5.png" />
+      <img src= "\profile-image-1.png" width="200 px" height="200 px"/>
+      <img src= "\profile-image-2.png" width="200 px" height="200 px"/>
+      <img src= "\profile-image-3.png" width="200 px" height="200 px"/>
+      <img src= "\profile-image-4.png" width="200 px" height="200 px"/>
+      <img src= "\profile-image-5.png" width="200 px" height="200 px"/>
         </Carousel>
       </div>
       <div className="colorDiv2">
