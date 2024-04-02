@@ -18,8 +18,10 @@
     "bootstrap": "^5.3.3",
     "mdb-react-ui-kit": "^7.2.0",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.10.1",
-    "react-dom": "^18.2.0"
+    "react-big-calendar": "^1.11.2",
+    "react-dom": "^18.2.0",
+    "react-multi-carousel": "^2.8.4",
+    "react-bootstrap": "^2.10.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
