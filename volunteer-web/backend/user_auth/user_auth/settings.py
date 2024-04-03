@@ -59,7 +59,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'database280.urls'
+ROOT_URLCONF = 'user_auth.urls'
 
 TEMPLATES = [
     {
@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'database280.wsgi.application'
+WSGI_APPLICATION = 'user_auth.wsgi.application'
 
 
 # Database

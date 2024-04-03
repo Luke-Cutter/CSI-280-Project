@@ -5,6 +5,8 @@ from rest_framework.response import Response
 from .serializers import UserRegisterSerializer, UserLoginSerializer, UserSerializer
 from rest_framework import permissions, status
 from .validations import custom_validation, validate_email, validate_password
+from django.db import models
+
 
 class UserRegister(APIView):
     permission_classes = (permissions.AllowAny,)
@@ -43,3 +45,21 @@ class UserView(APIView):
     def get(self, request):
         serializer = UserSerializer(request.user)
         return Response({'user':serializer.data}, status = status.HTTP_200_OK)
+    
+class DatabaseTestCharity(models.Model):
+    charity_id = models.IntegerField()
+    charity_name = models.CharField(max_length=45)
+    overview = models.TextField()
+    about_charity = models.TextField()
+    profile_image = models.BinaryField()
+    location_id = models.IntegerField(default=0)
+
+    def __str__(self):
+        return self.overview
+
+class DatabaseTest(APIView):
+    message = DatabaseTestCharity.objects.all()
+
+    def get(self, request):
+        serializer = UserSerializer(request.user)
+        return Response({'message':self.message}, status = status.HTTP_200_OK)

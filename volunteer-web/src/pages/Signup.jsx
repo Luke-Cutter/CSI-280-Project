@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 function DjangoTest() {
-  const [message, setMessage] = useState('');
+  const [resMessage, setMessage] = useState('');
 
   useEffect(() => {
-    axios.get('http://localhost:8000/api/user/')
+    axios.get('http://localhost:8000/api/dbTest/')
       .then(response => {
-        setMessage(response.data.user);
+        setMessage(response.data.message);
       })
       .catch(error => {
         console.log(error);
@@ -17,7 +17,7 @@ function DjangoTest() {
   return (
     <div>
       <h1>Dev Test</h1>
-      <p>{message}</p>
+      <p>{resMessage}</p>
     </div>
   );
 }
