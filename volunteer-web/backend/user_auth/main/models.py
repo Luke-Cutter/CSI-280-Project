@@ -39,3 +39,14 @@ class AppUser(AbstractBaseUser, PermissionsMixin):
     objects = AppUserManager()
     def __str__(self):
         return self.username
+
+class DatabaseTestCharity(models.Model):
+    charity_id = models.IntegerField()
+    charity_name = models.CharField(max_length=45)
+    overview = models.TextField()
+    about_charity = models.TextField()
+    profile_image = models.BinaryField()
+    location_id = models.IntegerField(default=0)
+
+    def __str__(self):
+        return self.overview

@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from django.core.exceptions import ValidationError
 from django.contrib.auth import get_user_model, authenticate
-
+from main.models import DatabaseTestCharity
 
 UserModel = get_user_model()
 
@@ -30,3 +30,13 @@ class UserSerializer(serializers.ModelSerializer):
             model = UserModel
             fields = ('email', 'username')
             
+class CharitySerializer(serializers.ModelSerializer):
+      
+      class Meta:
+            model = DatabaseTestCharity
+            fields = ('charity_id',
+                      'charity_name',
+                      'overview ',
+                      'about_charity',
+                      'profile_image',
+                      'location_id')
