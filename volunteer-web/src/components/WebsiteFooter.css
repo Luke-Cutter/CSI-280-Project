@@ -1,3 +1,60 @@
-.footerHover:hover {
-    color: black;
+.footer {
+    font-family: 'Libre Franklin Variable', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: #DEDBD2;
+    border-style: solid;
+    border-color: #4A5759;
+    border-width: 20px;
+}
+
+.links,
+.socials {
+    border-collapse: collapse;
+}
+
+.links a {
+    color: #000000;
+    margin-left: 10px;
+}
+
+.links a:hover {
+    color: #4A5759;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.socials th {
+    text-align: center;
+    font-size: 16px;
+    font-style: bold;
+    color: black; 
+}
+
+.socials td {
+    padding: 2px;
+}
+
+.socials a {
+    margin-right: 10px;
+}
+
+.footer img {
+    height: 2em;
+    width: 2em;
+}
+
+@media (min-width: 800px) {
+    .links a {
+        padding-left: 2em;
+    }
+}
+
+@media (min-width: 1000px) {
+    .links a {
+        padding-left: 6em;
+    }
 }
