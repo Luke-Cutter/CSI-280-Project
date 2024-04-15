@@ -34,7 +34,7 @@ const Footer = () => {
                         <td><a href="/suggestions">Suggestions</a></td>
                     </tr>
                     <tr>
-                        <td><a href="/carrers">Carrers</a></td>
+                        <td><a href="/careers">Careers</a></td>
                         <td><a href="/mission-statement">Our Mission Statement</a></td>
                     </tr>
                     <tr>

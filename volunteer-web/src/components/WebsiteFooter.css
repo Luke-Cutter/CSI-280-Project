@@ -15,6 +15,11 @@
 
 .links a {
     color: #000000;
+    margin-left: 10px;
+}
+
+.links a:hover {
+    color: #4A5759;
 }
 
 .right {
@@ -37,7 +42,19 @@
     margin-right: 10px;
 }
 
-img {
-    height: auto;
+.footer img {
+    height: 2em;
     width: 2em;
+}
+
+@media (min-width: 800px) {
+    .links a {
+        padding-left: 2em;
+    }
+}
+
+@media (min-width: 1000px) {
+    .links a {
+        padding-left: 6em;
+    }
 }
