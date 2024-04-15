@@ -1,7 +1,23 @@
 import { useState } from 'react'
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 export default function Home() {
     const [count, setCount] = useState(0)
+    const responsive = {
+      desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 4,
+      },
+      tablet: {
+        breakpoint: { max: 1024, min: 700 },
+        items: 3,
+      },
+      mobile: {
+        breakpoint: { max: 700, min: 0 },
+        items: 2,
+      }
+    };
 
     return (
     <div>
@@ -14,9 +30,42 @@ export default function Home() {
       </div>
       <div>
         <h3>Volunteer Helper is YOUR One Stop Shop for Finding the Perfect Opportunity</h3>
-        {/*Picture carousel here*/}
+        {/*Picture carousel test implementation below
+          Note: After testing, it seems this.props.deviceType
+          does not work in any attributes. Refrain from using
+          this unless testing solutions
+        */}
+        <Carousel
+          draggable={false}
+          responsive={responsive}
+          infinite={true}
+          ssr={true}
+          keyBoardControl={true}
+          transitionDuration={1500}
+        >
+      <img src= "\carousel-image-1.png" width="200 px" height="200 px"/>
+      <img src= "\carousel-image-2.png" width="200 px" height="200 px"/>
+      <img src= "\carousel-image-3.png" width="200 px" height="200 px"/>
+      <img src= "\carousel-image-4.png" width="200 px" height="200 px"/>
+      <img src= "\carousel-image-5.png" width="200 px" height="200 px"/>
+      <img src= "\carousel-image-6.png" width="200 px" height="200 px"/>
+        </Carousel>
         <h3>Get Searching!</h3>
         {/*Charity Profiles carousel here*/}
+        <Carousel
+          draggable={false}
+          responsive={responsive}
+          infinite={true}
+          ssr={true}
+          keyBoardControl={true}
+          transitionDuration={1500}
+        >
+      <img src= "\profile-image-1.png" width="200 px" height="200 px"/>
+      <img src= "\profile-image-2.png" width="200 px" height="200 px"/>
+      <img src= "\profile-image-3.png" width="200 px" height="200 px"/>
+      <img src= "\profile-image-4.png" width="200 px" height="200 px"/>
+      <img src= "\profile-image-5.png" width="200 px" height="200 px"/>
+        </Carousel>
       </div>
       <div className="colorDiv2">
         <h3>User Testimonials</h3>
