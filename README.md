@@ -18,8 +18,11 @@ Volunteer Helpers is built with responsive web design, ensuring that the website
 
 By connecting local charities with passionate volunteers, Volunteer Helpers aims to strengthen communities, foster a culture of giving back, and make a positive impact on society. With its innovative features and user-centric approach, Volunteer Helpers is poised to transform the way people engage in volunteerism, making it easier than ever to make a difference in the lives of others.
 
-Business Breakdown Slide Show:
+Business Breakdown Slide Show (BUS-110):
 https://docs.google.com/presentation/d/18UCRgql1qualeKRtdtrEo7NewHF9d0E0cJDt_lxfGY8/edit?usp=sharing
+
+Final Project Slide Show (CSI-280): 
+https://docs.google.com/presentation/d/1KK-9xy_YWdD4bECJpq0aJkH_infDr_nxd170imUSFhk/edit?usp=sharing
 
 Figma Design View (Click the link to see the current design layout of the website):
 https://www.figma.com/file/D0GnvhaoVe8Yk9zogeQeMI/Volunteer-Helpers-Website-Plans?type=design&node-id=0%3A1&mode=design&t=A795YGw16j2WZqsV-1
@@ -31,3 +34,4 @@ How to Set Up:
 4. npm install for @mui/icons-material
 @mui/material @emotion/react @emotion/styled
 5. npm install mdb-react-ui-kit
+6. npm install @fontsource-variable/libre-franklin if needed
