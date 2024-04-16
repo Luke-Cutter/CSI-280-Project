@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+}
+
+.locationTag {
+    background-color: #DEDBD2;
+    font-family: 'Libre Franklin Variable', sans-serif;
+    color: #4A5759;
+    padding: .7em;
+    height: 1em;
+    margin-top: 1em;
+}
