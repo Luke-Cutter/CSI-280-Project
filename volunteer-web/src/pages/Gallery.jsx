@@ -18,6 +18,7 @@ export default function Gallery() {
             <i>“Volunteering is an act of heroism on a grand scale. And it  matters profoundly. It does more than help people beat the odds; it  changes the odds.” </i>
             <span>— Bill Clinton</span>
         </div>
+        <br></br>
     </div>
     )
 }

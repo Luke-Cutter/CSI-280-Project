@@ -26,6 +26,7 @@ export default function Donate() {
         </div>
         {/*Donation Form would go here
         NEEDS A DONATION AMOUNT FIELD*/}
+        <br></br>
     </div>
     )
 }

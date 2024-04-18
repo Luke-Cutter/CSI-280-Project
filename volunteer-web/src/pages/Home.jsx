@@ -83,6 +83,21 @@ export default function Home() {
       <div>
         <h3>Volunteer Helper Heroes</h3>
         {/*Hero Picture carousel here*/}
+        <Carousel
+          draggable={false}
+          responsive={responsive}
+          infinite={true}
+          ssr={true}
+          keyBoardControl={true}
+          transitionDuration={1500}
+        >
+      <img src= "\luke.png" width="200 px" height="200 px" className="squareImg"/>
+      <img src= "\alex.png" width="200 px" height="200 px" className="squareImg"/>
+      <img src= "\carousel-image-3.png" width="200 px" height="200 px" className="squareImg"/>
+      <img src= "\carousel-image-4.png" width="200 px" height="200 px" className="squareImg"/>
+      <img src= "\carousel-image-5.png" width="200 px" height="200 px" className="squareImg"/>
+        </Carousel>
+        <br></br>
       </div>
     </div>
     )
