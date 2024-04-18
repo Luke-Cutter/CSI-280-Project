@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import FeaturedCharity from '../components/FeaturedCharity';
 
 export default function Home() {
     const [count, setCount] = useState(0)
@@ -26,7 +27,13 @@ export default function Home() {
       <div className="colorDiv1">
         <h3>This Week's Highlighted Charities</h3>
         {/*Featured Charities Components will go here*/}
-        <span>Click to Explore these Charities!</span>
+        <FeaturedCharity charityImg="\profile-image-1.png" charityLink="/"></FeaturedCharity>
+        <FeaturedCharity charityImg="\profile-image-2.png" charityLink="/"></FeaturedCharity>
+        <FeaturedCharity charityImg="\profile-image-3.png" charityLink="/"></FeaturedCharity>
+        <FeaturedCharity charityImg="\profile-image-4.png" charityLink="/"></FeaturedCharity>
+        <FeaturedCharity charityImg="\profile-image-5.png" charityLink="/"></FeaturedCharity>
+
+        <p>Click to Explore these Charities!</p>
       </div>
       <div>
         <h3>Volunteer Helper is YOUR One Stop Shop for Finding the Perfect Opportunity</h3>
