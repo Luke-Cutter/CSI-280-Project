@@ -1,4 +1,22 @@
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
 export default function Gallery() {
+    const responsive = {
+        desktop: {
+          breakpoint: { max: 3000, min: 1024 },
+          items: 5,
+        },
+        tablet: {
+          breakpoint: { max: 1024, min: 700 },
+          items: 4,
+        },
+        mobile: {
+          breakpoint: { max: 700, min: 0 },
+          items: 3,
+        }
+      };
+
     return (
     <div>
         <img src= "\gallery-banner.png" alt="Temporary Gallery Banner" />
@@ -12,6 +30,24 @@ export default function Gallery() {
             {/*Picture Collage Here*/}
             <h4>Our Sponsors:</h4>
             {/*Sponser Carousel Here*/}
+            <Carousel
+                draggable={false}
+                responsive={responsive}
+                infinite={true}
+                ssr={true}
+                keyBoardControl={true}
+                transitionDuration={1500}
+            >
+                    <img src= "\sponsor-1.png" width="120 px" height="120 px" className="squareImg"/>
+                    <img src= "\sponsor-2.jpg" width="120 px" height="120 px" className="squareImg"/>
+                    <img src= "\sponsor-3.jpg" width="120 px" height="120 px" className="squareImg"/>
+                    <img src= "\sponsor-4.png" width="120 px" height="120 px" className="squareImg"/>
+                    <img src= "\sponsor-5.jpg" width="120 px" height="120 px" className="squareImg"/>
+                    <img src= "\sponsor-6.jpg" width="120 px" height="120 px" className="squareImg"/>
+                    <img src= "\sponsor-7.png" width="120 px" height="120 px" className="squareImg"/>
+                    <img src= "\sponsor-8.png" width="120 px" height="120 px" className="squareImg"/>
+        </Carousel>
+
         </div>
         <div>
             <h4>Our Favorite Volunteer Quote of March</h4>
