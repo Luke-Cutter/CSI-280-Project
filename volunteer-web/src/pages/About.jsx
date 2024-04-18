@@ -14,6 +14,10 @@ export default function About() {
                 <img src="\alex.png" width="200 px" height="200 px" className="squareImg space"/>
                 <span class="caption">Alex Cattani</span>
             </div>
+            <div class="item">
+                <img src="\mike.jpg" width="200 px" height="200 px" className="squareImg space"/>
+                <span class="caption">Michael Kerwood</span>
+            </div>
            
       
         </div>
