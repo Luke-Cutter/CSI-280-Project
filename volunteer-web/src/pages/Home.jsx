@@ -94,8 +94,8 @@ export default function Home() {
       <img src= "\luke.png" width="200 px" height="200 px" className="squareImg"/>
       <img src= "\alex.png" width="200 px" height="200 px" className="squareImg"/>
       <img src= "\mike.jpg" width="200 px" height="200 px" className="squareImg"/>
-      <img src= "\carousel-image-4.png" width="200 px" height="200 px" className="squareImg"/>
-      <img src= "\carousel-image-5.png" width="200 px" height="200 px" className="squareImg"/>
+      <img src= "\sample-person-1.png" width="200 px" height="200 px" className="squareImg"/>
+      <img src= "\sample-person-2.png" width="200 px" height="200 px" className="squareImg"/>
         </Carousel>
         <br></br>
       </div>
