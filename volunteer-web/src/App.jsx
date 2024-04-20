@@ -15,6 +15,8 @@ import EmailUs from './pages/EmailUs'
 import Suggestions from './pages/Suggestions'
 import Careers from './pages/Careers'
 import LegalInfo from './pages/LegalInfo'
+import ForgotPassword from './pages/ForgotPassword'
+
 import CharityPage from './components/CharityPage.jsx'
 
 
@@ -36,6 +38,7 @@ function App() {
         <Route path="/opportunities" element={<Opportunities />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/events" element={<Events />} />
         <Route path="/donate" element={<Donate />} />
