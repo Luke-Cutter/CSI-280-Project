@@ -24,7 +24,9 @@ export const getCharity = (id) => {
             images: [
                 "/extra-image-2.png",
                 "/extra-image-3.png",
-                "/extra-image-4.png"
+                "/extra-image-4.png",
+                "/extra-image-2.png",
+                "/extra-image-3.png"
             ] 
         }
     ];

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import * as React from 'react'
 
 // imports of pages
 import Home from './pages/Home'
@@ -15,9 +15,10 @@ import EmailUs from './pages/EmailUs'
 import Suggestions from './pages/Suggestions'
 import Careers from './pages/Careers'
 import LegalInfo from './pages/LegalInfo'
+import CharityPage from './components/CharityPage.jsx'
 
 
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, useParams } from 'react-router-dom'
 import WebsiteHeader from './components/WebsiteHeader.jsx'
 import ResponsiveAppBar from './components/ResponsiveAppBar.jsx'
 import WebsiteFooter from './components/WebsiteFooter.jsx'
@@ -25,7 +26,6 @@ import './App.css'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -45,6 +45,7 @@ function App() {
         <Route path="/suggestions" element={<Suggestions />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/legal" element={<LegalInfo />} />
+        <Route path="/charity/:id" element={<CharityPage />} />
       </Routes>
       <WebsiteFooter />
     </>
