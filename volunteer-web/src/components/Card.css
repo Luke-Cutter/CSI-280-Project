@@ -1,0 +1,34 @@
+img.card {
+    float: left;
+    border: 2px #4A5759 solid;
+    border-radius: 10%;
+    margin-top: 1.5em;
+}
+
+div.inCard {
+    background-color: white;
+    margin-left: 12em;
+    margin-bottom: 2em;
+    margin-top: 1.5em;
+    padding: 0.5em;
+    padding-top: 0;
+}
+
+div.card {
+    margin: 0.5em;
+    padding: 2em;
+    display: inline-block;
+    width: 80%;
+    border-radius: 1%;
+}
+
+button.card {
+    color: white;
+    background-color: #4A5759;
+    padding: 0.5em;
+    transition: all 0.3s ease;
+}
+
+button.card:hover {
+    scale: 1.1;
+}

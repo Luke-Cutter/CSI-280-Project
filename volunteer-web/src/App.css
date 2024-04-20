@@ -32,3 +32,20 @@
   white-space: pre-wrap;
   text-align: left;
 }
+
+.squareImg {
+  border-radius: 5%;
+  border: 2px black solid;
+}
+
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 20em;
+}
+
+.caption {
+  display: block;
+}
