@@ -79,10 +79,11 @@ import { getCharity } from '../utils';
                         transitionDuration={1500}
                     >
                         {charity.images.map((image) => (
-                            <img src={image} width="200 px" height="200 px" className="squareImg"/>
+                            <img src={image} width="200 px" height="200 px" />
                         ))}      
                     </Carousel>
                 </div>
+                <br></br>
             </div>
         )
     };
