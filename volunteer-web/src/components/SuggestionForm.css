@@ -1,0 +1,58 @@
+.box {
+    position: relative;
+    width: 45.5em;
+    height: 10em;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #F7E1D7;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+
+.email{
+    width: 2em;  
+    margin-bottom:10px;
+}
+
+.message {
+    width: 2em; 
+    height: 8em;
+    margin-bottom:10px;
+}
+
+.messageBox {
+    width: 40em;
+    height: 8em;
+}
+
+.logo {
+    position: absolute;
+    top: -60px;
+    right: 10px;
+    width: 50px; 
+    height: 50px; 
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: "Libre Franklin Variable", sans-serif;
+}
+
+button{
+    position: absolute;
+    bottom: 1.35em;
+    right: 1em;
+    background-color: #4A5759;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: "Libre Franklin Variable", sans-serif;
+}
