@@ -15,15 +15,15 @@ const SuggestionForm = () => {
     return(
         <div className="box">
             <div className="email">
-                <input type="email" value={email} placeholder="Email:"
+                <input className="emailBox" type="email" value={email} placeholder="Email:"
                 onChange={(e) => setEmail(e.target.value)}></input>
             </div>
             <div className="message">
                 <input className="messageBox" type="message" value={message} placeholder="Message:"
                 onChange={(e) => setMessage(e.target.value)}></input>
             </div>
-            <button onClick={handleSend}>Send</button>
-            <img src={vhlogo} className="logo"/>
+            <button className="sendButton" onClick={handleSend}>Send</button>
+            <img src={vhlogo} className="formLogo"/>
         </div>
     );
 }

@@ -1,13 +1,11 @@
 .box {
     position: relative;
-    width: 45.5em;
+    width: 90%;
     height: 10em;
     border: 1px solid #ccc;
     padding: 20px;
     background-color: #F7E1D7;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: inline-block;
     border-radius: 10px;
     margin-top: 1em;
 }
@@ -17,27 +15,34 @@
     margin-bottom:10px;
 }
 
+.emailBox{
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
 .message {
-    width: 2em; 
     height: 8em;
     margin-bottom:10px;
 }
 
 .messageBox {
-    width: 40em;
+    width: 60%;
     height: 8em;
+    border: 1px solid white;
+    border-radius: 6px;
+    display: flex;
 }
 
-.logo {
+.formLogo {
     position: absolute;
-    top: -60px;
+    top: 0px;
     right: 10px;
     width: 50px; 
     height: 50px; 
 }
 
-input{
-    border: 1px solid black;
+input.box {
+    border: 1px solid white;
     border-radius: 5px;
     padding: 5px;
     background-color: #FFFFFF;
@@ -45,8 +50,7 @@ input{
     font-family: "Libre Franklin Variable", sans-serif;
 }
 
-button{
-    position: absolute;
+.sendButton {
     bottom: 1.35em;
     right: 1em;
     background-color: #4A5759;
@@ -55,4 +59,10 @@ button{
     border-radius: 5px;
     color: #FFFFFF;
     font-family: "Libre Franklin Variable", sans-serif;
+    position: absolute;
+    transition: all 0.3s ease;
+}
+
+.sendButton:hover {
+    scale: 1.1;
 }
