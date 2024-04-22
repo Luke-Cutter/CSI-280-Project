@@ -1,3 +1,5 @@
+import SuggestionForm from "../components/SuggestionForm";
+
 export default function About() {
     return (
     <div>
@@ -32,6 +34,7 @@ export default function About() {
             <h4>We Want to Hear From You!</h4>
             <span>We value your feedback and insights! Whether you have questions,  suggestions, or just want to share your volunteering experiences, we're  here to listen. Your input helps us improve and better serve our  community. Reach out to us today and let your voice be heard!</span>
                 {/*Email contact form will go here*/}
+                <SuggestionForm/>
         </div>
         <br></br>
       </div>

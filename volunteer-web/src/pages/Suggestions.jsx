@@ -1,3 +1,5 @@
+import SuggestionForm from "../components/SuggestionForm"; 
+
 export default function Suggestions() {
     return (
     <div>
@@ -9,7 +11,8 @@ export default function Suggestions() {
             here to listen. Your input helps us improve and better serve our community. 
             Reach out to us today and let your voice be heard!</p>
         {/*Email contact form will go here*/}
-        <br></br>
+        <SuggestionForm />
+        <br></br><br></br>
     </div>
     )
 }
