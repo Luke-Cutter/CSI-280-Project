@@ -1,0 +1,9 @@
+For starters yu will need to download mysql 
+1. look up mysql on the browser 
+2.click on downloads, then inside downloads click on community downloads
+3. Here you will need to select the installer for windows
+4. Go through the installation menus by clicking next until you get to the password 
+5. Create a password that is easy to remember 
+6. Click next and it will start to download the different connections
+7. Make sure to use the same password to secure you connection
+8. When your root is ready to be used you can open an mysql script from the self contained file in the github
