@@ -9,7 +9,7 @@ import "./Card.css"
 
         return (
             <div className={props.color + " card"}>
-                <img className="card" src={props.image}></img>
+                <img className="card" height="150px" width="150px" src={props.image}></img>
                 <div className="inCard">
                     <h4 align="left">{props.title}</h4>
                     <span>{props.overview}</span>

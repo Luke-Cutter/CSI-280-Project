@@ -56,6 +56,25 @@ import { getCharity } from '../utils';
                     <div>
                     <span><strong>Located: </strong>{charity.location}</span>
                     </div>
+                    <br></br>
+                    <div>
+                        <strong>Hours:</strong>
+                        <br></br>
+                        <div>Monday: {charity.hours.monday}</div>
+                        <div>Tuesday: {charity.hours.tuesday}</div>
+                        <div>Wednesday: {charity.hours.wednesday}</div>
+                        <div>Thursday: {charity.hours.thursday}</div>
+                        <div>Friday: {charity.hours.friday}</div>
+                        <div>Saturday: {charity.hours.saturday}</div>
+                        <div>Sunday: {charity.hours.sunday}</div>
+                    </div>
+                    <br></br>
+                    <div>
+                        <strong>Contact:</strong>
+                        <br></br>
+                        <div><strong>Email: </strong>{charity.email}</div>
+                        <div><strong>Phone: </strong>{charity.phone}</div>
+                    </div>
                 </div>
                 <br></br>
                 <div>
@@ -79,7 +98,7 @@ import { getCharity } from '../utils';
                         transitionDuration={1500}
                     >
                         {charity.images.map((image) => (
-                            <img src={image} width="200 px" height="200 px" />
+                            <img src={image} width="200 px" height="200 px" className='squareImg' />
                         ))}      
                     </Carousel>
                 </div>

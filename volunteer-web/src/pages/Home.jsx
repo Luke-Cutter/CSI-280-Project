@@ -27,11 +27,11 @@ export default function Home() {
       <div className="colorDiv1">
         <h3>This Week's Highlighted Charities</h3>
         {/*Featured Charities Components will go here*/}
-        <FeaturedCharity charityImg="\profile-image-1.png" charityLink="/"></FeaturedCharity>
-        <FeaturedCharity charityImg="\profile-image-2.png" charityLink="/"></FeaturedCharity>
-        <FeaturedCharity charityImg="\profile-image-3.png" charityLink="/"></FeaturedCharity>
-        <FeaturedCharity charityImg="\profile-image-4.png" charityLink="/"></FeaturedCharity>
-        <FeaturedCharity charityImg="\profile-image-5.png" charityLink="/"></FeaturedCharity>
+        <FeaturedCharity charityImg="/champlainvalleyliteracy_logo.jpg" charityLink="/charity/aab"></FeaturedCharity>
+        <FeaturedCharity charityImg="/burlingtoncommunitygarden_logo.jpg" charityLink="/charity/aac"></FeaturedCharity>
+        <FeaturedCharity charityImg="/burlingtonyouthart_logo.jpg" charityLink="/charity/aae"></FeaturedCharity>
+        <FeaturedCharity charityImg="/burlingtonbike_logo.jpg" charityLink="/charity/aag"></FeaturedCharity>
+        <FeaturedCharity charityImg="/winooskiriverwildlife_logo.jpg" charityLink="/charity/aaj"></FeaturedCharity>
 
         <p>Click to Explore these Charities!</p>
       </div>
