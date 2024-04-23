@@ -67,11 +67,11 @@ export default function Home() {
           keyBoardControl={true}
           transitionDuration={1500}
         >
-      <img src= "\profile-image-1.png" width="200 px" height="200 px"/>
-      <img src= "\profile-image-2.png" width="200 px" height="200 px"/>
-      <img src= "\profile-image-3.png" width="200 px" height="200 px"/>
-      <img src= "\profile-image-4.png" width="200 px" height="200 px"/>
-      <img src= "\profile-image-5.png" width="200 px" height="200 px"/>
+      <Link to='/charity/aad'><img src= "/lakechamplainenvironmental_logo.jpg" width="200 px" height="200 px" className='squareImg'/></Link>
+      <Link to='/charity/aah'><img src= "/greenmountainmusic_logo.jpg" width="200 px" height="200 px" className='squareImg'/></Link>
+      <Link to='/charity/aaf'><img src= "/champlainvalleyrefugee_logo.jpg" width="200 px" height="200 px" className='squareImg'/></Link>
+      <Link to='/charity/aai'><img src= "/champlainvalleyagriculture_logo.jpg" width="200 px" height="200 px" className='squareImg'/></Link>
+      <Link to='/charity/aaa'><img src= "/greenmountainaimalrescue_logo.jpg" width="200 px" height="200 px" className='squareImg'/></Link>
         </Carousel>
       </div>
       <div className="colorDiv2">
